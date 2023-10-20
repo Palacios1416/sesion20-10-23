@@ -30,6 +30,14 @@ public class App {
         
     }
     private static int pedirEntero() {
+        System.out.println("Ingrese un valor entero: ");
+        while (true) {
+            try {
+                int x = scan.nextInt();
+            } catch (Exception e) {
+                
+            }
+        }
         return 0;
     }
 }
